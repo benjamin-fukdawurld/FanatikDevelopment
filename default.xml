@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="fdw" fetch="https://github.com/benjamin-fukdawurld"/>
-    <remote name="llvm" fetch="https://github.com/llvm/llvm-project.git"/>
-    
+    <remote name="fdw" fetch="git+ssh://git@github.com/benjamin-fukdawurld"/>
+    <remote name="llvm" fetch="https://github.com/llvm"/>
+    <remote name="Tencent" fetch="https://github.com/Tencent"/>
+    <remote name="discordapp" fetch="https://github.com/discordapp"/>
+    <remote name="pybind" fetch="https://github.com/pybind"/>
+
     <default revision="master" remote="fdw" sync-j="8"/>
-    <default revision="master" remote="llvm" sync-j="8"/>
-    
+
     <project name="FDCore.git" remote="fdw" path="FDCore" />
-    <project name="FDPythonBindingGenerator.git" remote="fdw" path="FDPythonBindingGenerator" />
+    <project name="FDPyBinder.git" remote="fdw" path="FDPyBinder" />
+    <project name="FDCodeAnalyser.git" remote="fdw" path="FDCodeAnalyser" />
+
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
+    <project name="rapidjson.git" remote="Tencent" path="thirdparty/rapidjson" />
+    <project name="rapidxml.git" remote="discordapp" path="thirdparty/rapidxml" />
+    <project name="pybind11.git" remote="pybind" path="thirdparty/pybind11" />
     
 </manifest>
