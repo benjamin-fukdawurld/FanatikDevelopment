@@ -18,6 +18,7 @@
     <project name="FDJson.git" remote="fdw" path="FDJson" />
     <project name="FDXML.git" remote="fdw" path="FDXML" />
 
+    <project name="glad.git" remote="fdw" path="thirdparty/glad" />
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
     <project name="rapidjson.git" remote="Tencent" path="thirdparty/rapidjson" />
     <project name="rapidxml.git" remote="discordapp" path="thirdparty/rapidxml" />
