@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="fdw" fetch="https://github.com/benjamin-fukdawurld"/>
+    <remote name="llvm" fetch="https://github.com/llvm"/>
+    <remote name="Tencent" fetch="https://github.com/Tencent"/>
+    <remote name="discordapp" fetch="https://github.com/discordapp"/>
+    <remote name="pybind" fetch="https://github.com/pybind"/>
 
     <default revision="master" remote="fdw" sync-j="8"/>
 
