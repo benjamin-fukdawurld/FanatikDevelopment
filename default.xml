@@ -8,11 +8,6 @@
     <remote name="pybind" fetch="https://github.com/pybind"/>
 
     <default revision="master" remote="fdw" sync-j="8"/>
-    <default revision="master" remote="llvm" sync-j="8"/>
-    <default revision="master" remote="v8" sync-j="8"/>
-    <default revision="master" remote="Tencent" sync-j="8"/>
-    <default revision="master" remote="discordapp" sync-j="8"/>
-    <default revision="master" remote="pybind" sync-j="8"/>
 
     <project name="FDCore.git" remote="fdw" path="FDCore" />
     <project name="FDPyBinder.git" remote="fdw" path="FDPyBinder" />
