@@ -2,11 +2,17 @@
 <manifest>
     <remote name="fdw" fetch="https://github.com/benjamin-fukdawurld"/>
     <remote name="llvm" fetch="https://github.com/llvm"/>
+    <remote name="v8" fetch="https://chromium.googlesource.com/v8"/>
     <remote name="Tencent" fetch="https://github.com/Tencent"/>
     <remote name="discordapp" fetch="https://github.com/discordapp"/>
     <remote name="pybind" fetch="https://github.com/pybind"/>
 
     <default revision="master" remote="fdw" sync-j="8"/>
+    <default revision="master" remote="llvm" sync-j="8"/>
+    <default revision="master" remote="v8" sync-j="8"/>
+    <default revision="master" remote="Tencent" sync-j="8"/>
+    <default revision="master" remote="discordapp" sync-j="8"/>
+    <default revision="master" remote="pybind" sync-j="8"/>
 
     <project name="FDCore.git" remote="fdw" path="FDCore" />
     <project name="FDPyBinder.git" remote="fdw" path="FDPyBinder" />
@@ -21,5 +27,6 @@
     <project name="rapidjson.git" remote="Tencent" path="thirdparty/rapidjson" />
     <project name="rapidxml.git" remote="discordapp" path="thirdparty/rapidxml" />
     <project name="pybind11.git" remote="pybind" path="thirdparty/pybind11" />
+    <project name="v8.git" remote="v8" path="thirdparty/v8" />
 
 </manifest>
