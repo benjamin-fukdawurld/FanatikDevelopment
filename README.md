@@ -1,2 +1,2 @@
 # FanatikDevelopment
-Game engine from FDW
+Manifest for FDFramework
