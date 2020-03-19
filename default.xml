@@ -6,6 +6,8 @@
     <remote name="Tencent" fetch="https://github.com/Tencent"/>
     <remote name="discordapp" fetch="https://github.com/discordapp"/>
     <remote name="pybind" fetch="https://github.com/pybind"/>
+    <remote name="google" fetch="https://github.com/google" />
+    <remote name="glm" fetch="https://github.com/g-truc" />
 
     <default revision="master" remote="fdw" sync-j="8"/>
 
@@ -17,7 +19,8 @@
     <project name="FD3D.git" remote="fdw" path="FD3D" />
     <project name="FDSerialize.git" remote="fdw" path="FDSerialize" />
     <project name="FDJson.git" remote="fdw" path="FDJson" />
-    <project name="FDXML.git" remote="fdw" path="FDXML" />
+    <project name="FDXml.git" remote="fdw" path="FDXml" />
+    <project name="FDQUI.git" remote="fdw" path="FDQUI" />
 
     <project name="glad.git" remote="fdw" path="thirdparty/glad" />
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
@@ -25,5 +28,7 @@
     <project name="rapidxml.git" remote="discordapp" path="thirdparty/rapidxml" />
     <project name="pybind11.git" remote="pybind" path="thirdparty/pybind11" />
     <project name="v8.git" remote="v8" path="thirdparty/v8" />
+    <project name="googletest.git" remote="google" path="thirdparty/googletest" />
+    <project name="glm.git" remote="glm" path="thirdparty/glm" />
 
 </manifest>
