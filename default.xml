@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="fdw" fetch="git@github.com:benjamin-fukdawurld"/>
+    <remote name="fdw" fetch="ssh://git@github.com:benjamin-fukdawurld"/>
     <remote name="llvm" fetch="https://github.com/llvm"/>
     <remote name="v8" fetch="https://chromium.googlesource.com/v8"/>
     <remote name="depot_tools" fetch="https://chromium.googlesource.com/chromium/tools" />
