@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="fdw" fetch="git@github.com:benjamin-fukdawurld"/>
+    <remote name="fdw" fetch="https://github.com/benjamin-fukdawurld"/>
     <remote name="llvm" fetch="https://github.com/llvm"/>
     <remote name="v8" fetch="https://chromium.googlesource.com/v8"/>
-    <remote name="depot_tools" fetch="https://chromium.googlesource.com/chromium/tools" />
     <remote name="Tencent" fetch="https://github.com/Tencent"/>
     <remote name="discordapp" fetch="https://github.com/discordapp"/>
     <remote name="pybind" fetch="https://github.com/pybind"/>
     <remote name="google" fetch="https://github.com/google" />
     <remote name="glm" fetch="https://github.com/g-truc" />
-    <remote name="assimp" fetch="https://github.com/assimp" />
-    <remote name="stb" fetch="https://github.com/nothings" />
 
     <default revision="master" remote="fdw" sync-j="8"/>
 
@@ -20,23 +17,18 @@
     <project name="FDCodeAnalyser.git" remote="fdw" path="FDCodeAnalyser" />
     <project name="FDGL.git" remote="fdw" path="FDGL" />
     <project name="FD3D.git" remote="fdw" path="FD3D" />
-
     <project name="FDSerialize.git" remote="fdw" path="FDSerialize" />
     <project name="FDJson.git" remote="fdw" path="FDJson" />
     <project name="FDXml.git" remote="fdw" path="FDXml" />
     <project name="FDQUI.git" remote="fdw" path="FDQUI" />
-    <project name="FDScript.git" remote="fdw" path="FDScript" />
-    <project name="FDEngine.git" remote="fdw" path="FDEngine" />
 
     <project name="glad.git" remote="fdw" path="thirdparty/glad" />
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
     <project name="rapidjson.git" remote="Tencent" path="thirdparty/rapidjson" />
     <project name="rapidxml.git" remote="discordapp" path="thirdparty/rapidxml" />
     <project name="pybind11.git" remote="pybind" path="thirdparty/pybind11" />
-    <project name="depot_tools.git" remote="depot_tools" path="thirdparty/depot_tools" />
+    <project name="v8.git" remote="v8" path="thirdparty/v8" />
     <project name="googletest.git" remote="google" path="thirdparty/googletest" />
     <project name="glm.git" remote="glm" path="thirdparty/glm" />
-    <project name="assimp.git" remote="assimp" path="thirdparty/assimp" />
-    <project name="stb.git" remote="stb" path="thirdparty/stb" />
 
 </manifest>
