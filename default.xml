@@ -27,6 +27,7 @@
     <project name="FDScript.git" remote="fdw" path="FDScript" />
     <project name="FDEngine.git" remote="fdw" path="FDEngine" />
     <project name="FDLua.git" remote="fdw" path="FDLua" />
+    <project name="FDPython.git" remote="fdw" path="FDPython" />
 
     <project name="glad.git" remote="fdw" path="thirdparty/glad" />
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
