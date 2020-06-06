@@ -41,6 +41,6 @@
     <project name="glm.git" remote="glm" path="thirdparty/glm" />
     <project name="assimp.git" remote="assimp" path="thirdparty/assimp" />
     <project name="stb.git" remote="stb" path="thirdparty/stb" />
-    <project name="boost.git" remote="boost" path"thirdparty/boost" />
+    <project name="boost.git" remote="boost" path="thirdparty/boost" />
 
 </manifest>
