@@ -11,11 +11,11 @@
     <remote name="glm" fetch="https://github.com/g-truc" />
     <remote name="assimp" fetch="https://github.com/assimp" />
     <remote name="stb" fetch="https://github.com/nothings" />
+    <remote name="boost" fetch="https://github.com/boostorg" />
 
     <default revision="master" remote="fdw" sync-j="8"/>
 
     <project name="FDFramework.git" remote="fdw" path="FDFramework" />
-    <project name="FDSerialisation.git" remote="fdw" path="FDSerialisation" />
     <project name="FDCore.git" remote="fdw" path="FDCore" />
     <project name="FDPyBinder.git" remote="fdw" path="FDPyBinder" />
     <project name="FDCodeAnalyser.git" remote="fdw" path="FDCodeAnalyser" />
@@ -29,6 +29,7 @@
     <project name="FDEngine.git" remote="fdw" path="FDEngine" />
     <project name="FDLua.git" remote="fdw" path="FDLua" />
     <project name="FDPython.git" remote="fdw" path="FDPython" />
+    <project name="FDSceneGraph.git" remote="fdw" path="FDSceneGraph" />
 
     <project name="glad.git" remote="fdw" path="thirdparty/glad" />
     <project name="llvm-project.git" remote="llvm" path="thirdparty/llvm" />
@@ -40,5 +41,6 @@
     <project name="glm.git" remote="glm" path="thirdparty/glm" />
     <project name="assimp.git" remote="assimp" path="thirdparty/assimp" />
     <project name="stb.git" remote="stb" path="thirdparty/stb" />
+    <project name="boost.git" remote="boost" path"thirdparty/boost" />
 
 </manifest>
